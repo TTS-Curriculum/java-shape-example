@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class Square implements Shape {
   int side;
 
-  // Create a class constructor for the Square
-  // class
+  // Create a class constructor for the Square class
   public Square() {
     // Create a Scanner object
     Scanner myObj = new Scanner(System.in);

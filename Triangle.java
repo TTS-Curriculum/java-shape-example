@@ -5,8 +5,7 @@ public class Triangle implements Shape {
   int height;
   int base;
 
-  // Create a class constructor for the Triangle
-  // class
+  // Create a class constructor for the Triangle class
   public Triangle() {
     // Create a Scanner object
     Scanner myObj = new Scanner(System.in);
@@ -15,6 +14,7 @@ public class Triangle implements Shape {
     // Read user input
     height = Integer.parseInt(myObj.nextLine());
     System.out.print("Enter base: ");
+
     // Read user input
     base = Integer.parseInt(myObj.nextLine());
   }

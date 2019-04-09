@@ -1,22 +1,12 @@
-import java.util.Scanner;
-
 // Create a Triangle class
-public class Triangle implements Shape {
+public class Triangle extends Shape {
   int height;
   int base;
 
   // Create a class constructor for the Triangle class
-  public Triangle() {
-    // Create a Scanner object
-    Scanner myObj = new Scanner(System.in);
-    System.out.print("Enter height: ");
-
-    // Read user input
-    height = Integer.parseInt(myObj.nextLine());
-    System.out.print("Enter base: ");
-
-    // Read user input
-    base = Integer.parseInt(myObj.nextLine());
+  public Triangle(int h, int b) {
+    height = h;
+    base = b;
   }
 
   public String getName() {
@@ -28,7 +18,7 @@ public class Triangle implements Shape {
   }
 
   public static void main(String[] args) {
-    Triangle t = new Triangle();
+    Triangle t = new Triangle(3, 6);
     t.area();
   }
 }

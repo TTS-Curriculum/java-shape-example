@@ -1,10 +1,5 @@
-// public abstract class Shape {
-//
-//   abstract String getName();
-//   abstract void area();
-// }
+public abstract class Shape {
 
-interface Shape {
-  String getName();
-  void area();
+  abstract String getName();
+  abstract void area();
 }

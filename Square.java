@@ -1,16 +1,10 @@
-import java.util.Scanner;
-
 // Create a Square class
-public class Square implements Shape {
+public class Square extends Shape {
   int side;
 
   // Create a class constructor for the Square class
-  public Square() {
-    // Create a Scanner object
-    Scanner myObj = new Scanner(System.in);
-    System.out.print("Enter side: ");
-
-    side = Integer.parseInt(myObj.nextLine());  // Read user input
+  public Square(int s) {
+    side = s;
   }
 
   public String getName() {
@@ -22,7 +16,7 @@ public class Square implements Shape {
   }
 
   public static void main(String[] args) {
-    Square square = new Square();
+    Square square = new Square(5);
     square.area();
   }
 }

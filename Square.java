@@ -19,8 +19,7 @@ public class Square implements Shape {
   }
 
   public void area() {
-    System.out.println(getName() + " area: " +
-      side * side);
+    System.out.println(getName() + " area: " + side * side);
   }
 
   public static void main(String[] args) {

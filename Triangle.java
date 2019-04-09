@@ -24,8 +24,7 @@ public class Triangle implements Shape {
   }
 
   public void area() {
-    System.out.println(getName() + " area: " +
-      (height*base/2));
+    System.out.println(getName() + " area: " + (height*base/2));
   }
 
   public static void main(String[] args) {

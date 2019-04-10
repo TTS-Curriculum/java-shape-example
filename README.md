@@ -9,12 +9,20 @@ In this file we include an interface called Shape. This interface declares a num
 Download the repo using git or simply use the download link. Once you have the files on your local machine, you are free to use any Java IDE you choose or you can simply use the command line.
 
 
-### Using Git
+### Using Git to download a repo
 
 1. If git is not already installed, download and install git. 
 
-2. Download this project's repo using git.
+2. Once git is installed, navigate to where you want to store this project.
 
+3. Click on the `Clone or Download` button for this repo. Be sure to click on `Use HTTP` link and copy url.
+
+4. Then in the terminal, run the following to download this project's files:
+
+    ```bash
+    git clone https://github.com/tech-talent-south/java-shape-example.git
+    ```
+    
 ### Using Eclipse / IntelliJ IDE
 
 1. Setup your project in your IDE of choice.

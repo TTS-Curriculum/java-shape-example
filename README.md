@@ -11,13 +11,17 @@ Download the repo using git or simply use the download link. Once you have the f
 
 ### Using Git to download a repo
 
-1. If git is not already installed, download and install git. 
+1. Create a github account, if you don't already have one.
 
-2. Once git is installed, navigate to where you want to store this project.
+2. If git is not already installed on your machine, download and install it.
 
-3. Click on the `Clone or Download` button for this repo. Be sure to click on `Use HTTP` link and copy url.
+3. Once git is installed, navigate to where you want to store this project on your computer.
 
-4. Then in the terminal, run the following to download this project's files:
+4. Click on the `Clone or Download` button for this repo. Be sure to click on `Use HTTP` link and copy url.
+
+    > **Note:** Setting up ssh authentication when you create your Github account, will allow you to use the default ssh method
+
+5. Then in the terminal, run the following to download this project's files:
 
     ```bash
     git clone https://github.com/tech-talent-south/java-shape-example.git

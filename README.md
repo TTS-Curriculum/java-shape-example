@@ -8,9 +8,24 @@ In this file we include an interface called Shape. This interface declares a num
 
 Download the repo using git or simply use the download link. Once you have the files on your local machine, you are free to use any Java IDE you choose or you can simply use the command line.
 
-When using the command, you will need to use a terminal or putty (windows) to navigate to where you downloaded the project. Once there, use the commands below.
 
-To compile all the java files on the command line use the following command:
+### Using Git
+
+1. If git is not already installed, download and install git. 
+
+2. Download this project's repo using git.
+
+### Using Eclipse / IntelliJ IDE
+
+1. Setup your project in your IDE of choice.
+
+2. Skip to exercises below.
+
+### Compiling and Executing Java on the Command Line
+
+**Preq:** Using a terminal (putty from windows), navigate to your projects directory.
+
+To compile all the Java files on the command line type the following command:
 
 ```bash
 > javac *.java
@@ -29,6 +44,8 @@ or
 ```
 
 ## Exercises
+
+### Java
 
 1. Remove area class from Triangle class and recompile.
 

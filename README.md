@@ -15,7 +15,7 @@ Download the repo using git or simply use the download link. Once you have the f
 
 2. If git is not already installed on your machine, download and install it.
 
-3. Once git is installed, navigate to where you want to store this project on your computer.
+3. Once git is installed, navigate using a terminal or putty to where you want to store this project on your computer.
 
 4. Click on the `Clone or Download` button for this repo. Be sure to click on `Use HTTP` link and copy url.
 

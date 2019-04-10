@@ -27,6 +27,8 @@ Download the repo using git or simply use the download link. Once you have the f
     git clone https://github.com/tech-talent-south/java-shape-example.git
     ```
     
+    > **Note:** For any other project you would substitute the url here with the url you copy in the previous step.
+    
 ### Using Eclipse / IntelliJ IDE
 
 1. Setup your project in your IDE of choice.
